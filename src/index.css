@@ -1,0 +1,67 @@
+
+body{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: antiquewhite;
+  color: rgb(39, 102, 59);
+}
+
+h1{
+  font-size: 2.5rem;
+  margin-bottom: .75rem;
+}
+
+h2{
+  font-size: 2.5rem;
+}
+
+button{
+  padding: .5rem 1rem;
+  font-size: .85rem;
+  border-radius: 30px;
+  font-weight: 500;
+  margin: 1rem;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(39, 102, 59);
+  color: white;
+  border: none;
+}
+
+button:hover{
+  background-color: rgb(182, 163, 139);
+  color: white;
+  cursor: pointer;
+  
+}
+
+.board{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(39, 102, 59);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.89);
+  color: rgb(39, 102, 59);
+}
+
+.row{
+  display: flex;
+  flex-direction: column;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
